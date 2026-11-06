@@ -1,0 +1,25 @@
+name: Error
+description: Reporta un error funcional sin incluir secretos ni datos personales.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Para vulnerabilidades, usa el canal privado descrito en SECURITY.md."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Comportamiento observado
+      description: Usa datos sintéticos.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Plataforma y versión o commit

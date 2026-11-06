@@ -1,0 +1,16 @@
+# Placeholder — not wired to the server yet. Persistence (channels, message
+# history) comes after the in-memory broadcast MVP is working end to end.
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: clicord
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your environment}
+      POSTGRES_DB: clicord
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - clicord_pgdata:/var/lib/postgresql/data
+
+volumes:
+  clicord_pgdata:

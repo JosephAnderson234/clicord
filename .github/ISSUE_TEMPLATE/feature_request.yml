@@ -1,0 +1,23 @@
+name: Propuesta
+description: Propón una mejora y describe su efecto sobre la privacidad.
+title: "proposal: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema que resuelve
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Solución propuesta y alternativas
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Efecto sobre contenido, identidad y metadatos
+    validations:
+      required: true
