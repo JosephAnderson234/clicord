@@ -30,6 +30,7 @@ cargo clippy --workspace --all-targets --locked -- -D warnings
 ```
 
 La primera ejecución necesita descargar dependencias. Revisa [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar cambios y [docs/roadmap.md](docs/roadmap.md) para el orden de trabajo.
+El diseño de la siguiente versión privada está en [docs/phase-2-private-messaging.md](docs/phase-2-private-messaging.md); todavía no está implementado.
 
 ## Estructura
 

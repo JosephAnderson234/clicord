@@ -16,6 +16,8 @@ Los hitos se completan por criterios verificables, no por fechas prometidas.
 
 ## 2. Conversaciones privadas de dos personas
 
+Diseño y criterios de aceptación: [phase-2-private-messaging.md](phase-2-private-messaging.md). Aún no implementado.
+
 - Identidad criptográfica verificable y cifrado de extremo a extremo usando una implementación revisada.
 - Claves protegidas en el dispositivo, detección de cambios de identidad y cifrado del transporte remoto.
 - Servidor sin acceso al contenido, política explícita de metadatos y revisión externa de seguridad.
